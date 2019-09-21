@@ -1,0 +1,13 @@
+Testing ACH
+You can mimic successful and failed ACH charges using the following bank routing and account numbers:
+Routing number: 110000000
+Account number:
+000123456789 (success)
+000111111116 (failure upon use)
+000111111113(account closed)
+000222222227 (NSF/insufficient funds)
+000333333335 (debit not authorized)
+000444444440 (invalid currency)
+To mimic successful and failed bank account verifications, use these meaningful amounts:
+[32, 45] (success)
+[any other number combinations] (failure)
